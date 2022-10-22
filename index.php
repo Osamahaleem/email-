@@ -5,7 +5,7 @@
 /* connect to server */
 
 /* try to connect */
-$inbox = imap_open('{imap.gmail.com:993/imap/ssl}INBOX', 'osamahaleem96@gmail.com', 'viqlegxdmkkthwdi') or die('Cannot connect to Gmail: ' . imap_last_error());
+$inbox = imap_open('{imap.gmail.com:993/imap/ssl}INBOX', 'osamahaleem96@gmail.com', '') or die('Cannot connect to Gmail: ' . imap_last_error());
         
 //echo $inbox;
 /* grab emails */
